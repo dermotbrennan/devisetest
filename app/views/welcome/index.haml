@@ -1,0 +1,4 @@
+%h1 Welcome
+
+- if user_signed_in?
+  %p= link_to 'Go to restricted area', :action => 'restricted'
